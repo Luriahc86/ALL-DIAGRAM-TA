@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Coreloop" id="coreloop">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="420" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="CORELOOP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#222222;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="800" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="a" value="&lt;b&gt;Pilih Level&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE8A6;strokeColor=#D6B656;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b" value="&lt;b&gt;Sortir Makanan&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;(Halal / Haram)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE8A6;strokeColor=#D6B656;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="355" y="110" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c" value="&lt;b&gt;Umpan Balik Bulbul&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;(ekspresi + penjelasan)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE8A6;strokeColor=#D6B656;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="640" y="110" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d" value="&lt;b&gt;Kuis&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;(pilihan ganda)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE8A6;strokeColor=#D6B656;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="640" y="290" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e" value="&lt;b&gt;Dapatkan Bintang&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;(skor, 0–3 bintang)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE8A6;strokeColor=#D6B656;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="355" y="290" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f" value="&lt;b&gt;Buka Level Baru&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE8A6;strokeColor=#D6B656;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#333333;" edge="1" parent="1" source="a" target="b">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#333333;" edge="1" parent="1" source="b" target="c">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="soal berikutnya" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#333333;fontSize=11;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="c" target="b">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="80" />
+              <mxPoint x="440" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="10 soal selesai" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#333333;fontSize=11;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="c" target="d">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#333333;" edge="1" parent="1" source="d" target="e">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" value="≥ 1 bintang" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#333333;fontSize=11;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="e" target="f">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#333333;" edge="1" parent="1" source="f" target="a">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
